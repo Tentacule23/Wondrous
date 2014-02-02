@@ -90,7 +90,7 @@ int tritest(double vertexAx, double vertexAy, double vertexBx, double vertexBy, 
 	else {
 		line1 = test1(pointToCheckx, pointToChecky, m01, b01, vertexCx, vertexCy);
 	}
-
+	
 	if (vertexBx == vertexCx) {
 		line2 = ((pointToCheckx <= vertexCx) == (vertexAx <= vertexCx));
 	}
